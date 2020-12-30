@@ -1,0 +1,330 @@
+body {
+  padding-top: 0rem;
+  font-family: Arial, Helvetica, sans-serif justify;
+}
+
+.em-text {
+  color: #1caa98 !important;
+}
+.col-md-4{
+  margin-bottom: 20px;
+}
+
+.nv-text{
+  color: black;
+}
+
+.jumbotron{
+  background: url(../image/New\ Project.png) center top no-repeat ;
+  color: white;
+  height: 598px;
+  overflow: hidden;
+  margin-top: 0%;
+}
+.jumbotron h1 {
+  font-size: 500%;
+  margin-top: 20%;
+}
+.row p{
+  font-size: 150%;
+}
+
+.jumbotron .app-btn{
+  width: 40%;
+  margin-right: 1%;
+  border: 1px;
+}
+.jumbotron .apple{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius:20px ;
+  border-bottom-right-radius:20px ;  
+}
+section#middle{
+  margin-bottom: 30px;
+}
+
+.demo{
+  width: 100%;
+  padding: 1px;
+  border: 1px solid #1caa98;
+}
+
+.btncolor{
+  color: #fff;
+  background-color:#1caa98;
+}
+section#feature{
+  background: #1caa98;
+  color: #fff;
+  padding-top: 40px;
+  overflow: auto;
+ 
+}
+
+section#feature h1{
+  font-size: 220%;
+  text-align: center;
+}
+
+section#feature ul li{
+  font-size: 22px;
+  list-style: none;
+  line-height: 2.0em;
+  padding-left: 30px;
+}
+.camera{
+  width: 100%;
+  align-content: center;
+}
+
+section#title-bar{
+  padding-top: 70px;
+  margin: 0;
+  height: 150px;
+  background: #1caa98;
+  color:#fff;
+}
+.top{
+  padding-top: 40px;
+}
+
+
+section#title-bar h1{
+  margin-top:15 px;
+}
+
+.demo1{
+  width: 100%;
+  padding: 3px;
+  border: 1px solid #ccc;
+  margin: 20px 0 20px 0;
+} 
+.demo2{
+  width: 100%;
+  padding: 3px;
+  border: 1px solid #1caa98;
+} 
+
+
+/* footer */
+
+footer{
+  background: #333;
+  color: #fff;
+  padding: 30px 0 20px 0;
+}
+footer li{
+  float: left;
+  padding: 0 10px 0 10px;
+  list-style: none;
+}
+footer a:hover{
+  color: #1caa98;
+}
+footer a{
+  color: #fff;
+}
+footer p{
+  float: right;
+}
+
+.copyright{
+  font-size: 15px;
+}
+
+/* About Section */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #1caa98;
+  color: white;
+  margin-top: 50px;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #1caa98;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #fff;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+
+/* Media Query*/
+
+@media(max-width:1200px){
+
+}
+
+@media(max-width:991px){
+  
+}
+@media(min-width:768px) and (max-width:990px){
+  .jumbotron .app-btn{
+    width: 30%;
+  }
+  .jumbotron{
+    height: 400px !important;
+    background-size: 100% 90%;
+  } 
+  .jumbotron h1{
+    font-size:320%;
+    margin-top: 30px;
+  }
+  .row p{
+    font-size: 100%;
+  }
+}
+/* tab view */
+@media(max-width:768px){
+  .jumbotron{
+    height: 350px !important;
+    background-size: 100% 90%;
+  } 
+  .jumbotron h1{
+    font-size:320%;
+    margin-top: 10px;
+  }
+  .row p{
+    font-size: 100%;
+  }
+  .jumbotron .app-btn{
+    width: 25%;
+  }
+
+  .demo2{
+    width: 100%;
+    padding: 3px;
+    border: 1px solid #1caa98;
+    margin: 30px 0 10px 0;
+  } 
+
+  footer li{
+    float: center;
+    list-style:none;
+  }
+  .copyright{
+    font-size: 15px;
+    padding-top: 5px;
+    text-align: left;
+  }
+}
+
+/* mobile view */
+@media(max-width:500px){
+  .jumbotron{
+    height: 350px !important;
+    background-size: 100% 90%;
+    text-align: center;
+  } 
+  .jumbotron h1{
+    font-size:220%;
+    padding-top: 50px;
+  }
+  .jumbotron .app-btn{
+    width: 45%;
+  }
+  .row p{
+    font-size: 80%;
+  }
+  
+  section#feature h1{
+    font-size: 150%;
+    text-align: center;
+  }
+  section#feature ul li{
+    font-size: 18px;
+    list-style: none;
+    line-height: 2.0em;
+    padding-left: 0px;
+  }
+  footer{
+    background: #333;
+    color: #fff;
+    padding: 10px 0 10px 0;
+  }
+  footer li{
+    float: right;
+    list-style:none;
+  }
+  .copyright{
+    font-size: 15px;
+    padding-top: 5px;
+    text-align: center;
+  }
+  footer p{
+    float: left ;
+  }
+  section#title-bar{
+    padding-top: 70px;
+    height: 120px;
+    background: #1caa98;
+    color:#fff;
+  }
+  .top{
+    padding-top: 40px;
+  }
+  section#title-bar h1{
+    font-size: 25px;
+  }
+  .demo2{
+    width: 100%;
+    padding: 3px;
+    border: 1px solid #1caa98;
+    margin: 30px 0 10px 0;
+  } 
+
+
+
+}
